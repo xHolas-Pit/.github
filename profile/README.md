@@ -1,6 +1,6 @@
 # 🤞xHolas 
 
-<img src="https://github.com/xHolas-Pit/.github/blob/main/profile/batmanMeme.png?raw=true" width=500>
+<img src="https://github.com/xHolas-Pit/.github/blob/main/profile/batmanMeme.png?raw=true" width=350>
 
 There are numerous defi strategies in the world of interoperable blockchains, but implementing on-chain executions in solidity is difficult. As defi grows, non-technical traders should have the tools to deploy custom strategies without writing code. 
 So we built xHolas, a plug-and-play defi strategy builder, to provide a no-code tool for executing cross-chain defi strategies. 
