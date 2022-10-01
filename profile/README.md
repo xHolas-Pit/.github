@@ -20,7 +20,7 @@ There are numerous defi strategies in the world of interoperable blockchains, bu
 So we built xHolas, a plug-and-play defi strategy builder, to provide a no-code tool for executing cross-chain defi strategies with the following properties: 
 * batch execution: any number of txs should be executed with one signature
 * cross chain: swaps/lending/borrowing/etc. should be executed across multiple chains within a single batch execution   
-* checkout the [xHolas-contract](https://github.com/xHolas-Pit/xHolas-contracts) repo for detailed smart contract architecture and deployments. 
+* checkout the [xHolas-contract](https://github.com/xHolas-Pit/xHolas-contract/) repo for detailed smart contract architecture and deployments. 
 
 ## Resources for Cross-Chain Development 
 
