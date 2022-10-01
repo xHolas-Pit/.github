@@ -1,4 +1,5 @@
-# 🤞xHolas [deployment](xholas.vercel.app) | [slides](https://docs.google.com/presentation/d/1V0T_K-vqmEk2MqcLvSJt26at3LBLFKhMuJ7ZT80KZeU/edit?usp=sharing)
+# 🤞xHolas 
+## [deployment](xholas.vercel.app) | [slides](https://docs.google.com/presentation/d/1V0T_K-vqmEk2MqcLvSJt26at3LBLFKhMuJ7ZT80KZeU/edit?usp=sharing)
 
 <img src="https://github.com/xHolas-Pit/.github/blob/main/profile/batmanMeme.png?raw=true" width=250>
 <!-- <img src="https://github.com/xHolas-Pit/.github/blob/main/profile/distractedMeme.jpg?raw=true" width=350> -->
@@ -14,7 +15,7 @@ So we built xHolas, a plug-and-play defi strategy builder, to provide a no-code 
 * cross chain: swaps/lending/borrowing/etc. should be executed across multiple chains within a single batch execution   
 
 ### Smart Contract Architecture
-<img src="https://github.com/xHolas-Pit/.github/blob/main/profile/xHolasDiagram.png?raw=true" width=250>
+<img src="https://github.com/xHolas-Pit/.github/blob/main/profile/xHolasDiagram.png?raw=true" width=400>
 1. the frontend app receives user payload, aka a list of transactions they want to perform along with their parameters. 
   * ex) swap 25 $ETH to $USDC on Ethereum -> bridge output $USDC to Solana -> swap output $USDC to $WETH -> bridge $WETH back to $ETH Ethereum 
 2. the xHolas contract executes transactions in a loop through delegate calls
