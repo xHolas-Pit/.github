@@ -10,16 +10,21 @@ There are numerous defi strategies in the world of interoperable blockchains, bu
 
 ## Solution 
 
+### The Product
+
 So we built xHolas, a plug-and-play defi strategy builder, to provide a no-code tool for executing cross-chain defi strategies with the following properties: 
 * batch execution: any number of txs should be executed with one signature
 * cross chain: swaps/lending/borrowing/etc. should be executed across multiple chains within a single batch execution   
 
 ### Smart Contract Architecture
-<img src="https://github.com/xHolas-Pit/.github/blob/main/profile/xHolasDiagram.png?raw=true" width=400>
+<img src="https://github.com/xHolas-Pit/.github/blob/main/profile/xHolasDiagram.png?raw=true" width=700>
+
 1. the frontend app receives user payload, aka a list of transactions they want to perform along with their parameters. 
   * ex) swap 25 $ETH to $USDC on Ethereum -> bridge output $USDC to Solana -> swap output $USDC to $WETH -> bridge $WETH back to $ETH Ethereum 
+
 2. the xHolas contract executes transactions in a loop through delegate calls
-3. each call gets routed to a handler contract based on the corresponding strategy (swap, bridge, borrow, lend), and for cross-chain txs, the remaining tx function names and parameters are encoded and sent over to the target chain as a Wormhole VAA payload to be executed at the target chain's receiving contract. 
+
+4. each call gets routed to a handler contract based on the corresponding strategy (swap, bridge, borrow, lend), and for cross-chain txs, the remaining tx function names and parameters are encoded and sent over to the target chain as a Wormhole VAA payload to be executed at the target chain's receiving contract. 
 
 Feel free to check out the current [deployment](xholas.vercel.app) and our presentation [slides](https://docs.google.com/presentation/d/1V0T_K-vqmEk2MqcLvSJt26at3LBLFKhMuJ7ZT80KZeU/edit?usp=sharing)
 
