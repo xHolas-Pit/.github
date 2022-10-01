@@ -5,7 +5,7 @@
 
 ⚠️ The webapp and the contracts were created at a hackathon and might not be fully functional at the time of use. The project is not being actively maintained and is opensourced as an educational resource. 
 
-<img src="https://github.com/xHolas-Pit/.github/blob/main/profile/batmanMeme.png?raw=true" width=250>
+<img src="https://github.com/xHolas-Pit/.github/blob/main/profile/batmanMeme.png?raw=true" width=300>
 <!-- <img src="https://github.com/xHolas-Pit/.github/blob/main/profile/distractedMeme.jpg?raw=true" width=350> -->
 
 ## Problem 
@@ -28,9 +28,8 @@ So we built xHolas, a plug-and-play defi strategy builder, to provide a no-code 
 
 2. the xHolas contract executes transactions in a loop through delegate calls
 
-4. each call gets routed to a handler contract based on the corresponding strategy (swap, bridge, borrow, lend), and for cross-chain txs, the remaining tx function names and parameters are encoded and sent over to the target chain as a Wormhole VAA payload to be executed at the target chain's receiving contract. 
-
-Feel free to check out the current [deployment](xholas.vercel.app) and our presentation [slides](https://docs.google.com/presentation/d/1V0T_K-vqmEk2MqcLvSJt26at3LBLFKhMuJ7ZT80KZeU/edit?usp=sharing)
+4. each call gets routed to a handler contract based on the corresponding strategy (swap, bridge, borrow, lend)
+* for cross-chain txs, the remaining tx function names and parameters are encoded and sent over to the target chain as a Wormhole VAA payload to be executed at the target chain's receiving contract. 
 
 ## Resources for Cross-Chain Development 
 
