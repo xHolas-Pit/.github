@@ -37,7 +37,9 @@ So we built xHolas, a plug-and-play defi strategy builder, to provide a no-code 
 We learned a lot about wormhole's infrastructure, and for anyone hoping to add cross chain functionalities to their dapp using wormhole, we compiled the following resources: 
 * wormhole developer docs: https://book.wormhole.com
 * wormhole deployed contracts: https://book.wormhole.com/reference/contracts.html
-* wormhole sample projects: https://github.com/wormhole-foundation/xdapp-book/tree/main/projects (
+* wormhole sample projects: https://github.com/wormhole-foundation/xdapp-book/tree/main/projects 
 * Setting up wormhole dev environment 
-1. running local testnets and guardians: https://github.com/wormhole-foundation/xdapp-book/tree/main/projects/wormhole-local-validator
-2. running Redis (a queue for storing VAAS) and then the SpyListener/RESTRelayer/WalletMonitor : https://github.com/wormhole-foundation/wormhole/tree/dev.v2/relayer/spy_relayer
+    1. running local testnets and guardians:
+       * https://github.com/wormhole-foundation/xdapp-book/tree/main/projects/wormhole-local-validator
+    2. running Redis (a queue for storing VAAS) and then the SpyListener/RESTRelayer/WalletMonitor: 
+       * https://github.com/wormhole-foundation/wormhole/tree/dev.v2/relayer/spy_relayer
