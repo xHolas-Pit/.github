@@ -1,14 +1,17 @@
 # 🤞xHolas 
-## project from xHack by Jump Crypto 
 
-xHolas is a plug-and-play defi strategy builder, a no-code tool created to make cross-chain defi strategies more accessible to non-technical traders. 
+xHolas is a plug-and-play defi strategy builder, built to provide a no-code tool for executing cross-chain defi strategies. 
 
-Feel free to check out the current [deployment](xholas.vercel.app). 
+Feel free to check out the current [deployment](xholas.vercel.app) and our presentation [slides](https://docs.google.com/presentation/d/1V0T_K-vqmEk2MqcLvSJt26at3LBLFKhMuJ7ZT80KZeU/edit?usp=sharing)
 
+⚠️ The webapp and the contracts were created at a hackathon and might not be fully functional at the time of use. The project is not being actively maintained and is opensourced as an educational resource. 
+
+## Background 
+
+project from [xHack](https://jumpcrypto.com/xhack/) by Jump Crypto 
+
+## Resources for Cross-Chain Development 
 
 For other developers planning to develop on wormhole: 
-
-
-⚠️ The webapp and the smart contract was created at a hackathon and might not be fully functional at the time of use. The project is not being actively maintained and is opensourced as educational resource. 
 
 ![introMeme](https://raw.githubusercontent.com/Descent098/ezcv/master/.github/logo.png)
