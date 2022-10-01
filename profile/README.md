@@ -14,6 +14,6 @@ project from [xHack](https://jumpcrypto.com/xhack/) by Jump Crypto
 
 For other developers planning to develop on wormhole: 
 
-![batmanMeme](https://github.com/xHolas-Pit/.github/profile/batmanMeme.png?raw=true)
+![batmanMeme](https://github.com/xHolas-Pit/.github/blob/main/profile/batmanMeme.png?raw=true)
 
-![distractedMeme](https://github.com/xHolas-Pit/.github/profile/distractedMeme.jpg?raw=true)
+![distractedMeme](https://github.com/xHolas-Pit/.github/blob/main/profile/distractedMeme.jpg?raw=true)
