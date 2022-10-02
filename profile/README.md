@@ -1,5 +1,5 @@
 # 🤞xHolas 
-## [deployment](xholas.vercel.app) | [slides](https://docs.google.com/presentation/d/1V0T_K-vqmEk2MqcLvSJt26at3LBLFKhMuJ7ZT80KZeU/edit?usp=sharing)
+## [deployment](https://xholas.vercel.app) | [slides](https://docs.google.com/presentation/d/1V0T_K-vqmEk2MqcLvSJt26at3LBLFKhMuJ7ZT80KZeU/edit?usp=sharing)
 
 💸 This project won a $10K bounty at [xHack](https://jumpcrypto.com/xhack/) hosted by Jump Crypto!
 
